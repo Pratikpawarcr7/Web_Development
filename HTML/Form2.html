@@ -1,0 +1,184 @@
+<!doctype html>
+<!-- *------------------------------------- -->
+<!--* HTML FORM TAG  
+<!-- *---------------------------------------- -->
+
+<!--? The <form> tag is used to create an HTML form for user input. -->
+
+<!--? The <input> HTML element is used to create interactive controls for web-based forms to accept data from the user. We must write inside the tag. -->
+
+<!-- *------------------------------------- -->
+<!--* HTML Types of inputs in HTML Form
+<!-- *---------------------------------------- -->
+
+<!-- 1: Text Input (<input type="text" />): Allows users to enter a single line of
+text. 
+
+2: Password Input (<input type="password" />): Hides the entered text for
+secure password entry. 
+
+3: Email Input (<input type="email" />): Validates and
+formats input as an email address. 
+
+4:Number Input (<input type="number" />):
+Accepts numeric input and provides increment/decrement controls. 
+
+5:Radio Buttons (<input type="radio" />): Allows users to choose a single option from a group of
+options. 
+
+6: Checkboxes (<input type="checkbox" />): Allows users to select
+multiple options. 
+
+7: Dropdowns (<select> and <option>): Provides a list of options for users to choose from.
+  
+8: <datalist> Provide a predefined list of options for autocomplete suggestions.
+
+9: Textarea (<textarea>): Allows users to enter multiple lines of text.
+
+10:File Upload (<input type="file">):  Lets users choose and upload files from their device.
+
+11: Submit Button (<input type="submit">):  Submits the form data to the server. -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
+    html {
+      font-family: "jost", sans-serif;
+      background-color: #efefef;
+    }
+    h1 {
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <h1>HTML FORM</h1>
+    <form action="#">
+      <label for="email"> Enter Your Email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="entyer your email"
+        name="email"
+        required
+        autocomplete="off"
+        value="pratik_cr7@gemil.com"
+        readonly
+        disabled
+      />
+      <br />
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
+
+<!-- *------------------------------------- -->
+<!--* INTERVIEW Q:  HTML FORM ELEMENTS 
+<!-- *---------------------------------------- -->
+
+<!--? 1: Difference between ID vs Class attribute?  -->
+<!--***Q1. What is the difference between the ID and Class attributes in HTML?**
+
+**Answer:**
+
+The `id` and `class` attributes are used to identify HTML elements and apply CSS styles or JavaScript functionality.
+
+**1. ID Attribute**
+- The `id` attribute uniquely identifies a single element on a page.
+- An ID should be unique within the HTML document.
+- In CSS, we select an ID using the `#` symbol.
+
+**Example:**
+```html
+<h1 id="heading">Welcome</h1>
+```
+
+```css
+#heading {
+    color: blue;
+}
+```
+
+**2. Class Attribute**
+- The `class` attribute is used to group multiple HTML elements.
+- The same class can be used on multiple elements.
+- In CSS, we select a class using the `.` symbol.
+
+**Example:**
+```html
+<p class="text">Hello</p>
+<p class="text">Welcome</p>
+```
+
+```css
+.text {
+    color: green;
+}
+```
+
+**Difference Table:**
+
+| ID | Class |
+|---|---|
+| Uses the `id` attribute | Uses the `class` attribute |
+| Should be unique per document | Can be reused on multiple elements |
+| CSS selector uses `#` | CSS selector uses `.` |
+| Example: `#heading` | Example: `.text` |
+
+**Conclusion:** The ID attribute identifies a specific element, while the class attribute groups elements for common styling or functionality.-->
+
+<!--? 2: Difference between Div vs Span Tag?  -->
+
+<!--!**Q2. What is the difference between the `<div>` and `<span>` tags in HTML?**
+
+**Answer:**
+
+The `<div>` and `<span>` tags are used to group HTML elements for styling and layout purposes.
+
+**1. `<div>` Tag**
+- The `<div>` tag is a block-level element.
+- It starts on a new line and occupies the available width by default.
+- It is used to group larger sections of HTML content.
+
+**Example:**
+```html
+<div style="background-color: lightblue;">
+    <h3>Welcome</h3>
+    <p>This is a div element.</p>
+</div>
+```
+
+**2. `<span>` Tag**
+- The `<span>` tag is an inline element.
+- It does not start on a new line.
+- It occupies only the space required by its content.
+- It is used to style a small part of text.
+
+**Example:**
+```html
+<p>
+    Welcome to <span style="color: red;">HTML</span> programming.
+</p>
+```
+
+**Difference Table:**
+
+| `<div>` Tag | `<span>` Tag |
+|---|---|
+| Block-level element | Inline element |
+| Starts on a new line | Stays in the same line |
+| Occupies the available width by default | Occupies only the required width |
+| Groups larger sections | Styles small parts of content |
+| Example: `<div>Content</div>` | Example: `<span>Text</span>` |
+
+**Conclusion:** The `<div>` tag is used to group block-level sections of content, whereas the `<span>` tag is used to style or group small portions of inline content.-->
+
+<div>
+  <h1>Welcome to <span style="color: red"> Our Website </span></h1>
+  <p>This is a description of our services.</p>
+</div>
