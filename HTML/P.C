@@ -181,16 +181,16 @@ Use CSS to change the bullet style.
 
 3. Difference between Ordered and Unordered Lists
 |-----------------------------------|-------------------------------------------|
-|	Ordered List		    |	Unordered List				|
+|	Ordered List		           |	     Unordered List				     |
 |-----------------------------------|-------------------------------------------|
-| Uses the <ol> tag		    | 	Uses the <ul> tag			|
-|				    |						|
-| Displays numbers or letters	    | 	Displays bullet points			|
-|				    |						|
-| Used when order matters	    | 	Used when order does not matter		|
-|                                   |						|
-| Example: Steps to install 	    | 	Example: List of subjects		|
-| software                          |						|
+| Uses the <ol> tag		           | 	     Uses the <ul> tag     			|
+|				                |		     			          	|
+| Displays numbers or letters	      | 	     Displays bullet points			|
+|				                |						               |
+| Used when order matters	      | 	     Used when order does not matter    |
+|                                   |		     				          |
+| Example: Steps to install 	      | 	     Example: List of subjects		|
+| software                          |			     			          |
 ---------------------------------------------------------------------------------
 4. Interview Question
 
